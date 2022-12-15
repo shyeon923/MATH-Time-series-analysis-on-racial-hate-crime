@@ -15,13 +15,12 @@ I used *Python 3* to collect and clean data (Van Rossum & Drake, 2009). For desc
 # Data
 Main datasets come from the Federal Bureau of Investigation Crime Data Explorer (***hate_crime.csv***), the United States Bureau of Labor Statistics, and the national centers for environmental information (NOAA).
 
-** A. Time series data for racial hate crimes** (3 columns with 360 rows, monthly from 1991 to 2020)
+**A. Time series data for racial hate crimes** (3 columns with 360 rows, monthly from 1991 to 2020)
 1. *all_race_hc_ts.csv*: three columns are year, month, and number of all racial hate crimes
 2. *black_hc_ts.csv*: three columns are year, month, and number of anti-Black hate crimes
 3. *asian_hc_ts.csv*: three columns are year, month, and number of anti-Asian hate crimes
 
-** B. Time series data as explanatory variables** (3 columns with 360 rows, monthly from 1991 to 2020)
-
+**B. Time series data as explanatory variables** (3 columns with 360 rows, monthly from 1991 to 2020)
 1  *cpi.csv*: monthly consumer price index (CPI)
 2. *avg_temp.csv*: monthly U.S. average temperature
 3. *unemployment.csv*: monthly unemployment rate
